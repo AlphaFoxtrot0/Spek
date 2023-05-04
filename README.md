@@ -1,4 +1,6 @@
 # Spek
+https://youtu.be/HiOJiRHdVGU
+
 Code for the Spec calendar display platform. Built with an Arduino MRK WiFi 1010 and digitial display
 
 Circuit is very simple. Connect VCC, Ground, SCL, and SCA to their respective pins on the board. Done!
