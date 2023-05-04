@@ -1,8 +1,8 @@
 /*
-Program: Spek - Alpha 1.0
+Program: Spek - Alpha 1.1
 Author: Trey Breshears
 Creation Date: 04/21/2023
-Last modified: 05/02/2023     Please Update this!
+Last modified: 05/03/2023     Please Update this!
 
 This program connets via WiFi to the RTC and Google Calendar API Servers. It compiles and displayes these responses on a digital display indicating the current time, busy status,
 and current events.
