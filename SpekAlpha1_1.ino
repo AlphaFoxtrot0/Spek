@@ -35,12 +35,12 @@ bool IsPM = false;
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // WiFi Setup - Replace with your own SSID (WiFi Name) and password
-const char* ssid = "Foxtrot";
-const char* password = "happyfire853";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Google Calendar API endpoint and API key
-String apiKey = "AIzaSyBzCbXJraxv_Jrnnl3TeDpRxsuAl3FWHzo";
-String userEmail = "AlphaFoxtrot0@gmail.com";
+String apiKey = "YOUR_API_KEY";
+String userEmail = "YOUR_EMAIL";
 /* Setting up the API key is a lengthy process. I asked ChatGPT to help */
 
 // Replace with your own time zone offset
