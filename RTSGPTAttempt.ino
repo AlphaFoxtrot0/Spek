@@ -35,11 +35,11 @@ bool IsPM = false;
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // WiFi Setup - Replace with your own SSID (WiFi Name) and password
-const char* ssid = "Foxtrot";
-const char* password = "happyfire853";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Google Calendar API endpoint and API key
-String apiKey = "AIzaSyBzCbXJraxv_Jrnnl3TeDpRxsuAl3FWHzo";
+String apiKey = "YOUR_API_KEY";
 /* Setting up the API key is a lengthy process. I asked ChatGPT to help */
 
 // Replace with your own time zone offset
@@ -271,7 +271,7 @@ void loop() {
 
 //buildURL returns the APU URL accunting for the user's unique key and the current date
 String buildURL(){
-  String apiURL = "/calendar/v3/calendars/AlphaFoxtrot0@gmail.com/events?key="; //2023-04-30T00:00:00Z&timeMax=2023-05-01T23:59:59Z";
+  String apiURL = "/calendar/v3/calendars/YOUR_EMAIL/events?key="; //2023-04-30T00:00:00Z&timeMax=2023-05-01T23:59:59Z";
   apiURL += apiKey;
   apiURL += "&timeMin=";
   apiURL += "20";
